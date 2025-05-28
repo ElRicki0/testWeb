@@ -1,0 +1,9 @@
+.user-msg {
+  margin-bottom: .75rem;
+  font-weight: 600;
+}
+.bot-msg {
+  margin-bottom: .75rem;
+  margin-left: 1rem;
+  color: #495057;
+}

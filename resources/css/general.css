@@ -1,0 +1,208 @@
+/*! código general inicio */
+.espacio-boton {
+    margin-top: 500px;
+}
+
+.fondo-celeste {
+    background-color: #026c7c;
+}
+
+.texto-perfil {
+    color: black;
+    font-size: medium;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(135deg, #00b7d4, #6ab4db, #7cbbdd, #9ecee8, #abd8f0, #bfdff0, #ffffff);
+    background-size: 1000vw 1000vh;
+    /* Ajusta el tamaño para que cubra todo el ancho y alto */
+    background-repeat: no-repeat;
+    animation: fanimado 10s infinite;
+}
+
+@keyframes fanimado {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/*! código general final */
+/* Reset y estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== ESTILOS PARA LOGIN ========== */
+.luma-body-login {
+    font-family: sans-serif;
+    background-color: #1f2933;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.luma-container-login {
+    text-align: center;
+}
+
+.luma-login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 320px;
+    margin: auto;
+    color: black;
+}
+
+.luma-logo-login img {
+    width: 50px;
+}
+
+.luma-logo-login h1 {
+    color: #3b82f6;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.luma-input-group {
+    margin: 2rem 0;
+}
+
+.luma-input-field {
+    background: #9ca3af;
+    border-radius: 9999px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.luma-input-field .luma-icon {
+    margin-right: 0.5rem;
+}
+
+.luma-input-field input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    color: #000;
+    font-size: 1rem;
+}
+
+.luma-login-btn {
+    background-color: #1f2933;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.luma-bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 320px;
+}
+
+.luma-secondary-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* ========== ESTILOS PARA REGISTRO ========== */
+.luma-body-registro {
+    font-family: sans-serif;
+    background-color: #1f2933;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.luma-container-registro {
+    text-align: center;
+}
+
+.luma-form-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 360px;
+}
+
+.luma-logo-registro img {
+    width: 50px;
+}
+
+.luma-logo-registro h1 {
+    color: #3b82f6;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.luma-logo-registro p {
+    font-size: 0.9rem;
+}
+
+.luma-form-box h2 {
+    margin: 1.5rem 0;
+}
+
+.luma-form-registro {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.luma-form-registro label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.luma-form-registro input {
+    background: #9ca3af;
+    border: none;
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+}
+
+.luma-save-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}

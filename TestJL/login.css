@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #1f2933;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.login-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 320px;
+  margin: auto;
+  color: black;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.logo h1 {
+  color: #3b82f6;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.input-group {
+  margin: 2rem 0;
+}
+
+.input-field {
+  background: #9ca3af;
+  border-radius: 9999px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.input-field .icon {
+  margin-right: 0.5rem;
+}
+
+.input-field input {
+  border: none;
+  background: none;
+  outline: none;
+  width: 100%;
+  color: #000;
+  font-size: 1rem;
+}
+
+.login-btn {
+  background-color: #1f2933;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 320px;
+}
+
+.secondary-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  cursor: pointer;
+}

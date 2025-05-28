@@ -1,0 +1,1 @@
+agregar las carpetas aca de las direcciones para guardar las imágenes

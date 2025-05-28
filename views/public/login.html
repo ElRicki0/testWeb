@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../resources/css/general.css">
+    <link rel="stylesheet" href="../../resources/css/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- Contenido principal del documento -->
+    <main class="d-flex justify-content-center align-items-center vh-100">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                    <div class="card shadow ">
+                        <div class="text-center">
+                            <h4 class="text-primary-emphasis">SeguriPYME </h4>
+                            <hr>
+                        </div>
+                        <div class="card-body">
+                            <form autocomplete="off" id="sessionForm">
+
+                                <h2 id="mainTitle" class="text-center mb-1">Iniciar Sesión</h2>
+                                <div class="mb-3">
+                                    <label for="correo" class="form-label">Correo</label>
+                                    <input id="correo" class="form-control" type="text" placeholder="Correo"
+                                        name="correo" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="clave" class="form-label">Clave</label>
+                                    <input id="clave" class="form-control" type="password" placeholder="Clave"
+                                        name="clave" required>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="bi bi-send"></i> Enviar
+                                    </button>
+                                </div>
+
+                                <div class="text-center mt-3">
+                                    <a class="btn btn-dark btn-sm" href="#">
+                                        <h5>¿Olvidaste tu clave? Click aquí</h5>
+                                    </a>
+                                </div>
+                                <div class="text-center mt-3">
+                                    <a class="btn btn-dark btn-sm" href="signUp.html">
+                                        <h5>Regístrate aquí</h5>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- IMPORTACIÓN DE ARCHIVOS JAVASCRIPT -->
+    <!-- Llamada al framework y librería de mensajes -->
+    <script src="../../resources/js/bootstrap.bundle.min.js"></script>
+    <script src="../../resources/js/sweetalert.min.js"></script>
+    <!-- Llamada al controlador general de la aplicación -->
+    <script type="text/javascript" src="../../controllers/utils/components.js"></script>
+    <!-- Llamada al controlador del sitio privado -->
+    <script type="text/javascript" src="../../controllers/utils/public.js"></script>
+    <!-- ? Llama al validador de textos -->
+    <!-- <script src="../../controllers/utils/inputValidator.js"></script> -->
+    <!-- Llamada al controlador de la página web -->
+    <!-- ! cambiar el link js para el controntrolador -->
+    <script src="../../controllers/public/loging.js"></script>
+</body>
+
+</html>
